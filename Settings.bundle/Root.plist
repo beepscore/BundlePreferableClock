@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Title</key>
+	<string>YOUR_PROJECT_NAME</string>
 	<key>StringsTable</key>
 	<string>Root</string>
 	<key>PreferenceSpecifiers</key>
@@ -10,7 +12,7 @@
 			<key>Type</key>
 			<string>PSToggleSwitchSpecifier</string>
 			<key>Title</key>
-			<string>Display 24 hour</string>
+			<string>Display 24-Hour</string>
 			<key>Key</key>
 			<string>24HourDisplay</string>
 			<key>DefaultValue</key>
@@ -20,29 +22,112 @@
 			<key>FalseValue</key>
 			<string>NO</string>
 		</dict>
-        <dict>
-            <key>Type</key>
-            <string>PSMultiValueSpecifier</string>
-            <key>Title</key>
-            <string>Time Zone</string>
-            <key>Key</key>
-            <string>TimeZone</string>
-            <key>DefaultValue</key>
-            <string>America/Detroit</string>
-            <key>Titles</key>
-            <array>
-                <string>Chicago</string>
-                <string>Detroit</string>
-                <string>Vancouver</string>
-            </array>
-            <key>Values</key>
-            <array>
-                <string>America/Chicago</string>
-                <string>America/Detroit</string>
-                <string>America/Vancouver</string>
-            </array>
-
-        </dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Time Zone</string>
+			<key>Key</key>
+			<string>TimeZone</string>
+			<key>DefaultValue</key>
+			<string>America/Detroit</string>
+			<key>Titles</key>
+			<array>
+				<string>Cairo</string>
+				<string>Johannesburg</string>
+				<string>Casablanca</string>
+				<string>Khartoum</string>
+				<string>Kinshasa</string>
+				<string>Tripoli</string>
+				<string>Chicago</string>
+				<string>Denver</string>
+				<string>Detroit</string>
+				<string>Halifax</string>
+				<string>La_Paz</string>
+				<string>Lima</string>
+				<string>Los_Angeles</string>
+				<string>Mexico_City</string>
+				<string>Montreal</string>
+				<string>New_York</string>
+				<string>Sao_Paulo</string>
+				<string>Toronto</string>
+				<string>Vancouver</string>
+				<string>Winnipeg</string>
+				<string>Bangkok</string>
+				<string>Damascus</string>
+				<string>Hong_Kong</string>
+				<string>Jerusalem</string>
+				<string>Seoul</string>
+				<string>Shanghai</string>
+				<string>Singapore</string>
+				<string>Taipei</string>
+				<string>Tokyo</string>
+				<string>Melbourne</string>
+				<string>Perth</string>
+				<string>Sydney</string>
+				<string>Amsterdam</string>
+				<string>Athens</string>
+				<string>Berlin</string>
+				<string>Dublin</string>
+				<string>Istanbul</string>
+				<string>London</string>
+				<string>Madrid</string>
+				<string>Moscow</string>
+				<string>Oslo</string>
+				<string>Paris</string>
+				<string>Rome</string>
+				<string>Stockholm</string>
+				<string>Vienna</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<string>Africa/Cairo</string>
+				<string>Africa/Johannesburg</string>
+				<string>Africa/Casablanca</string>
+				<string>Africa/Khartoum</string>
+				<string>Africa/Kinshasa</string>
+				<string>Africa/Tripoli</string>
+				<string>America/Chicago</string>
+				<string>America/Denver</string>
+				<string>America/Detroit</string>
+				<string>America/Halifax</string>
+				<string>America/La_Paz</string>
+				<string>America/Lima</string>
+				<string>America/Los_Angeles</string>
+				<string>America/Mexico_City</string>
+				<string>America/Montreal</string>
+				<string>America/New_York</string>
+				<string>America/Sao_Paulo</string>
+				<string>America/Toronto</string>
+				<string>America/Vancouver</string>
+				<string>America/Winnipeg</string>
+				<string>Asia/Bangkok</string>
+				<string>Asia/Damascus</string>
+				<string>Asia/Hong_Kong</string>
+				<string>Asia/Jerusalem</string>
+				<string>Asia/Seoul</string>
+				<string>Asia/Shanghai</string>
+				<string>Asia/Singapore</string>
+				<string>Asia/Taipei</string>
+				<string>Asia/Tokyo</string>
+				<string>Australia/Melbourne</string>
+				<string>Australia/Perth</string>
+				<string>Australia/Sydney</string>
+				<string>Europe/Amsterdam</string>
+				<string>Europe/Athens</string>
+				<string>Europe/Berlin</string>
+				<string>Europe/Dublin</string>
+				<string>Europe/Istanbul</string>
+				<string>Europe/London</string>
+				<string>Europe/Madrid</string>
+				<string>Europe/Moscow</string>
+				<string>Europe/Oslo</string>
+				<string>Europe/Paris</string>
+				<string>Europe/Rome</string>
+				<string>Europe/Stockholm</string>
+				<string>Europe/Vienna</string>
+			</array>
+		</dict>
 	</array>
 </dict>
 </plist>
