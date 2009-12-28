@@ -20,6 +20,29 @@
 			<key>FalseValue</key>
 			<string>NO</string>
 		</dict>
+        <dict>
+            <key>Type</key>
+            <string>PSMultiValueSpecifier</string>
+            <key>Title</key>
+            <string>Time Zone</string>
+            <key>Key</key>
+            <string>TimeZone</string>
+            <key>DefaultValue</key>
+            <string>America/Detroit</string>
+            <key>Titles</key>
+            <array>
+                <string>Chicago</string>
+                <string>Detroit</string>
+                <string>Vancouver</string>
+            </array>
+            <key>Values</key>
+            <array>
+                <string>America/Chicago</string>
+                <string>America/Detroit</string>
+                <string>America/Vancouver</string>
+            </array>
+
+        </dict>
 	</array>
 </dict>
 </plist>
