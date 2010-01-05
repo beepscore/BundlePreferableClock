@@ -32,8 +32,8 @@ NSString *DefaultTimeZonePref = @"America/Detroit";
  */
 
 - (void)dealloc {
-    self.timeLabel = nil;
-    self.timeZoneLabel = nil;
+    [timeLabel release], timeLabel = nil;
+    [timeZoneLabel release], timeZoneLabel = nil;
     [clockViewUpdateTimer release], clockViewUpdateTimer = nil;
     [clockFormatter release], clockFormatter = nil;
     
